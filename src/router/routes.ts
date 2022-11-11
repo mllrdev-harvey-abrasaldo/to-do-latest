@@ -5,19 +5,19 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../views/Home.vue"),
+    component: () => import("../views/home-page.vue"),
   },
 
   {
     path: "/home",
     name: RouteName.Home,
-    component: () => import("../views/Home.vue"),
+    component: () => import("../views/home-page.vue"),
   },
 
   {
     path: "/todo",
     name: RouteName.Todo,
-    component: () => import("../views/ToDo.vue"),
+    component: () => import("../views/to-do-page.vue"),
   },
 ];
 

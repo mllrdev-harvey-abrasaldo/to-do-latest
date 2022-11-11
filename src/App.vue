@@ -1,6 +1,6 @@
 <template>
   <div>
-    <RouterLink to="/">Home</RouterLink> |
+    <RouterLink to="/home">Home</RouterLink> |
     <RouterLink to="/todo">To do List</RouterLink>
   </div>
   <RouterView/>
