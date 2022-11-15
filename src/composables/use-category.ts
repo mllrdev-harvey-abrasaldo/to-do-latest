@@ -10,7 +10,7 @@ export default function useCategory() {
       alert("Please Enter Category")
     }
     else{
-      categories.value.push(categoryInput.value);
+      categories.value.push(categoryInput.value)
       categoryInput.value = ""
     }
 
